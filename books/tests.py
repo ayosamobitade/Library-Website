@@ -17,8 +17,8 @@ class BookTests(TestCase):
 
     def test_book_content(self):
         self.assertEqual(self.book.title, "A good title")
-        self.assertEqual(self.book.subtitle, "An excellent subtitile")
-        self.assertEqual(self.book.autho, 'Tom Christie')
+        self.assertEqual(self.book.subtitle, "An excellent subtitle")
+        self.assertEqual(self.book.autho, 'Tom Christies')
         self.assertEqual(self.book.isbn, "1234567890123")
 
     def book_listview(self):
